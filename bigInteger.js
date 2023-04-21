@@ -2,7 +2,7 @@ const number = BigInt('749832174983217498231749827349873214987321498732149873982
 
 const digits = number.toString().split('')
 
-let sum = 0n; // n для того чтобы представить число к целочисленным 
+let sum = 0n // n для того чтобы представить число к целочисленным 
 let product = 1n
 
 for (const d of digits) {
